@@ -1,0 +1,79 @@
+.bg
+{
+  width: 100%;
+  z-index: 0;
+  border-radius: 5px;
+  padding: 0px; 
+}
+
+#banner{
+    width:100%;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color:lightgray;
+    text-align: center;
+}
+
+#reftable{    
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a{
+    color: lightgray;
+}
+
+#infotable{
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: medium;
+}
+ul{    
+    text-align: left;
+    display: inline-block;
+}
+div.container {
+    text-align: center;
+}
+  
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+#blankrow
+{
+    height: 50px;
+    background-color: #000000;
+}
+.models{
+    border-collapse:separate;
+    border:solid white 1px;
+    border-radius:6px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#features{
+    border-collapse:separate;
+    border:solid white 1px;
+    border-radius:6px;
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+}
