@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html data-it-installed="true">
+  <head> 
+    <html lang="en">
+    <link href="assignment4.css" rel="stylesheet">
+    <title>Assignment 4</title>
+  </head>
+  <body>
+    <header>
+     <a href="https://www.centennialcollege.ca/" target="_blank"><img id="banner" class="bg" alt="Centennial Banner" src="https://i.ibb.co/QfNBWhH/banner.png"></a>
+    </header>
+    <div id="border">
+      <div id="intro">
+        <h1>Centennial College</h1>
+        <h2>Continuing Education Course/Instructor Evaluation</h2>
+      </div>
+        <br><br>
+      <div id="padding">
+        <p>Please read each statement carefully and consider each one individually. Use the <strong>computer card</strong> to make your choice. Give only <strong> one answer </strong> for each question</p>
+        <br><label for="course name"><strong>Course Name/Code: </strong> </label>&nbsp;
+        <input type="text" name="coursename" size="69">
+        <br><br>
+        <table id="semyear">
+          <tr>
+            <td><strong>Semester: </strong> </td>
+            <td><input type="checkbox"  name="fall">
+            <label for="fall"> Fall</label>&emsp;</td> 
+            <td><input type="checkbox"  name="winter">
+            <label for="winter"> Winter</label>&emsp;</td>
+            <td><input type="checkbox"  name="spring/summer">
+            <label for="spring/summer"> Spring/Summer</label></td>
+            <td><label for="year"><strong>Year: </strong> </label>
+                <input type="number" name="year" value="2022" ></td>
+          </tr>
+        </table>
+        <br>
+        <label for="instructor"><strong>Instructor: </strong> </label>&nbsp;
+        <input type="text" name="instructor" size="81">
+        <br><br>
+        <hr>
+        <h2>Instructor</h2><br>
+        <p>How would you rate the instructor's:</p><br>
+        <p>1. <strong>Knowledge</strong> of subject?</p><br>
+        <table id="semyear">
+          <tr>
+            <td><input type="checkbox" name="excellent">&nbsp;<label for="excellent">Excellent</label></td>
+            <td><input type="checkbox" name="good">&nbsp;<label for="good">Good</label></td>
+            <td><input type="checkbox" name="fair">&nbsp;<label for="fair">Fair</label></td>
+            <td><input type="checkbox" name="not">&nbsp;<label for="not">Not Satisfactory</label></td>
+          </tr>
+        </table>
+        <p>2. <strong>Helpfulness</strong>?</p><br>
+        <table id="semyear">
+          <tr>
+            <td><input type="checkbox" name="excellent">&nbsp;<label for="excellent">Excellent</label></td>
+            <td><input type="checkbox" name="good">&nbsp;<label for="good">Good</label></td>
+            <td><input type="checkbox" name="fair">&nbsp;<label for="fair">Fair</label></td>
+            <td><input type="checkbox" name="not">&nbsp;<label for="not">Not Satisfactory</label></td>          
+          </tr>
+        </table>
+        <p>3. <strong>Courtesy and respect</strong> for all students?</p><br>        <table id="semyear">
+          <tr>
+            <td><input type="checkbox" name="excellent">&nbsp;<label for="excellent">Excellent</label></td>
+            <td><input type="checkbox" name="good">&nbsp;<label for="good">Good</label></td>
+            <td><input type="checkbox" name="fair">&nbsp;<label for="fair">Fair</label></td>
+            <td><input type="checkbox" name="not">&nbsp;<label for="not">Not Satisfactory</label></td>        
+          </tr>
+        </table>
+        <p>4. <strong>Communication</strong> skills?</p><br>
+        <table id="semyear">
+          <tr>
+            <td><input type="checkbox" name="excellent">&nbsp;<label for="excellent">Excellent</label></td>
+            <td><input type="checkbox" name="good">&nbsp;<label for="good">Good</label></td>
+            <td><input type="checkbox" name="fair">&nbsp;<label for="fair">Fair</label></td>
+            <td><input type="checkbox" name="not">&nbsp;<label for="not">Not Satisfactory</label></td>          
+          </tr>
+        </table>
+        <p>5. Overall <strong>performance</strong>?</p><br>
+        <table id="semyear">
+          <tr>
+            <td><input type="checkbox" name="excellent">&nbsp;<label for="excellent">Excellent</label></td>
+            <td><input type="checkbox" name="good">&nbsp;<label for="good">Good</label></td>
+            <td><input type="checkbox" name="fair">&nbsp;<label for="fair">Fair</label></td>
+            <td><input type="checkbox" name="not">&nbsp;<label for="not">Not Satisfactory</label></td>          
+          </tr>
+        </table>
+        <br><h2>Course</h2><br>
+        <p>6. How would you rate the <strong>course materials</strong>?</p><br>
+        <input type="radio" name="course">&nbsp;<label for="excellent">Excellent</label><br>
+        <input type="radio" name="course">&nbsp;<label for="good">Good</label><br>
+        <input type="radio" name="course">&nbsp;<label for="fair">Fair</label><br>
+        <input type="radio" name="course">&nbsp;<label for="no">Not Satisfactory</label><br><br>
+        <p>7. How much did this course meet your <strong>expectations</strong>?</p><br>
+        <input type="radio" name="expectations">&nbsp;<label for="excellent">Excellent</label><br>
+        <input type="radio" name="expectations">&nbsp;<label for="good">Good</label><br>
+        <input type="radio" name="expectations">&nbsp;<label for="fair">Fair</label><br>
+        <input type="radio" name="expectations">&nbsp;<label for="no">Not Satisfactory</label><br><br>
+        <p>8. How would you rate this course (<strong>overall</strong>)? </p><br>
+        <input type="radio" name="overall">&nbsp;<label for="excellent">Excellent</label><br>
+        <input type="radio" name="overall">&nbsp;<label for="good">Good</label><br>
+        <input type="radio" name="overall">&nbsp;<label for="fair">Fair</label><br>
+        <input type="radio" name="overall">&nbsp;<label for="no">Not Satisfactory</label><br>
+        <br><h2>General Information</h2><br><br>
+        <label for="9">9. Was the <strong>course outline</strong> reviewed/explained at the beginning of your course?</label>
+        <select name="9">
+        <option></option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not Sure</option>
+        </select><br><br>
+        <label for="10">10. Would you <strong>recommend</strong> this course to a friend with the same interests?</label>
+        <select name="10">
+        <option></option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Not Sure</option>
+        </select>
+        <br><br><h2>Any Other Comments</h2>&ensp;<p>(please use the back of the computer card or this paper if necessary)</p><br>
+        <label for="11">11. What is the <strong>best thing</strong> about this course? </label>&nbsp;
+        <input type="text" name="11" size="55"><br><br>
+        <label for="12">12. How could we  <strong>improve</strong> this course? </label>&nbsp;
+        <input type="text" name="12" size="62"><br><br>
+        <label for="13">13. Other: </label>&nbsp;
+        <input type="text" name="12" size="60"><br><br>
+        <div id="footer"><em>
+        <br><a href="thankyou.html">
+          <input type="submit" value="Submit"></a>
+      </div>
+        <div id="footer">
+          <br><p>Thank you! We pay attention to your feedback!</p><br>
+          <p>Web: <a href="https://www.centennialcollege.ca/continuingeducation" target="_blank">https://www.centennialcollege.ca/continuingeducation</a>&ensp; Email: <a href = "mailto: continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></p><br><br>
+        </div></em>
+    </div>
+
+
+
+  </body>
+  </html>
