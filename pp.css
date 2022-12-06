@@ -138,11 +138,14 @@ button:hover{
     overflow:auto;
     background-color: rgb(228, 228, 228);
     border-radius: 5px;
+    color:black;
+    
 }
 
 .dropdown:hover .dpncont{
     display: block;
     margin-bottom: 10px;
+    color:black;
 }
 
 .dpncont a{
@@ -159,7 +162,7 @@ button:hover{
 }
 
 .dpncont a:hover{
-    color: #0a0a23;
+    color: black;
     background-color:rgb(199, 195, 195);
 }
 
