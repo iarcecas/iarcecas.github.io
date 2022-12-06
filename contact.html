@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html data-it-installed="true">
+
+<head>
+    <html lang="en">
+    <link href="pp.css" rel="stylesheet">
+    <title>Personal Project</title>
+</head>
+
+<body>
+    <a href="ppindex.html"><img src="Logo.png" id="logo"></a>
+    <img src="Banner.jpg" class="banner">
+
+    <div class="navbar">
+
+        <a href="ppindex.html">Home</a>
+
+        <div class="dropdown">
+
+            <button class="hoverbig" onclick="location.href='Listings.html';">Listings &equiv;</button>
+            <div class="dpncont">
+
+                <a href="Listing1.html">Listing 1</a>
+                <a href="Listing2.html">Listing 2</a>
+                <a href="Listing3.html">Listing 3</a>
+
+            </div>
+        </div>
+
+        <a href="contact.html">Contact Us</a>
+        <a href="sitemap.html">Site Map</a>&nbsp;
+
+    </div>
+    <div class="contactformat">
+        <h1>Contact Form</h1>
+        <div class="shorter"><h4>Your dream home could be one step closer to you today! Fill the following information and we'll contact you!</h4></div>
+        <br>
+
+        <label for="fname"><h2>First Name</h2></label>
+        <input type="text" name="firstname" placeholder="Your name...">
+        <br><br>
+        <label for="lname"><h2>Last Name</h2></label>
+        <input type="text" name="lastname" placeholder="Your last name...">
+        <br><br>
+        <label for="phone"><h2>Phone Number</h2></label>
+        <input type="text" name="phone" placeholder="123-456-7890">
+        <br><br>
+        <label for="email"><h2>Email Address</h2></label>
+        <input type="text" name="email" placeholder="youremail@address.com">
+        <br><br>
+        <label for="condohouse"><h2>Which are you looking for?</h2></label>
+        <select name="condohouse">
+            <option></option>
+            <option value="condo">Condominium</option>
+            <option value="house">House</option>
+        </select>
+        <br><br>
+        <label for="beds"><h2>Number of Bedrooms</h2></label>
+        <input type="number" name="beds" value="2" >
+        <br><br>
+        <label for="bath"><h2>Number of Bathrooms</h2></label>
+        <input type="number" name="bath" value="1" >
+        <br><br>
+        <label for="price"><h2>Price Range</h2></label>
+        <select name="price">
+            <option></option>
+            <option >>$500,000</option>
+            <option >$500,000-$600,000</option>
+            <option >$700,000-$800,000</option>
+            <option >$900,000-$1,000,000</option>
+            <option >$1,000,000+</option>
+        </select>
+        <br><br>
+        <label for="comments"><h2>Additional Comments</h2></label>
+        <input type="text" name="comments" placeholder="Enter any additional comments here...">
+        <br><br>
+
+        <div class="submitbutton"><a href="ppindex.html"><input type="submit" value="Send to Agent"></a></div>        
+    </div>
+    <br><br>
+        <div class="footer">
+            <hr>
+            <br>
+            <p>&copy; 2022 Ignacio Arce</p><br>
+        </div>
+
+
+
+</body>
